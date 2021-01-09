@@ -9,24 +9,7 @@ body {
 }
 
 
-@keyframes hello{
-    from{
-        
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) rotate(0deg);
-        background-color: rgb(122, 122, 190);
-        
-    }
-    to{
-        
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%)  rotate(360deg);
-    }
-}
+
 
 .clock {
     position: absolute;
@@ -39,7 +22,7 @@ body {
     border-radius: 50%;
     box-shadow: 0px 0px 10px white;
     background-color: rgb(81, 75, 121);
-    animation: hello 3s ease-in-out infinite alternate-reverse;
+   
     
    
     h1 {
